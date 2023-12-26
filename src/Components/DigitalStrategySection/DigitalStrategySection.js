@@ -110,6 +110,14 @@ const DigitalStrategySection = () => {
   } else if (screenWidth <= 375) {
     return (
       <div className="container mx-auto flex flex-col items-center p-8">
+        {/* Mobile Image */}
+        <div className="mb-8">
+          <img
+            src="/images/digital_strategy_image.png"
+            alt="mobile"
+            style={{ width: "275px", height: "275.68px" }}
+          />
+        </div>
         {/* Description and Button */}
         <div className="flex flex-col items-center text-center">
           <span className="text-lg font-bold text-blue-500">
@@ -125,15 +133,6 @@ const DigitalStrategySection = () => {
           </p>
 
           <Button title="LEARN MORE" />
-        </div>
-
-        {/* Mobile Image */}
-        <div className="mb-8">
-          <img
-            src="/images/digital_strategy_image.png"
-            alt="mobile"
-            style={{ width: "275px", height: "275.68px" }}
-          />
         </div>
       </div>
     );
