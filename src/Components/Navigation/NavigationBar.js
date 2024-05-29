@@ -24,11 +24,11 @@ const Navigation = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-lg">
           <Link to="/">
-            {/* <img
+            <img
               src="/images/footer_logo.png"
               alt="mobile"
               style={{ width: "100px", height: " 20px" }}
-            /> */}
+            />
           </Link>
         </div>
 
